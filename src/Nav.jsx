@@ -6,7 +6,7 @@ const Nav = () => {
 
   return (
     <nav className="bg-black text-white  ">
-      <div className="container mx-auto xl:w-9/12 flex justify-between items-center bg-gray-900 px-6 py-5 rounded-2xl backdrop-blur-2xl ">
+      <div className="container mx-auto xl:w-9/12 flex justify-between items-center bg-gray-900 px-6 py-5 rounded-2xl backdrop-blur-2xl sticky  top-0">
         
         {/* Left Side - Menu Items (For Large Screens) */}
         <ul className="hidden md:flex gap-6 text-lg">

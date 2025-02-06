@@ -1,4 +1,5 @@
 import rizons from  './assets/rizon-ahmed-removebg.png'
+import Contact from './Contact';
 import Skill from './Skill';
 const About = () => {
   return (
@@ -30,6 +31,7 @@ const About = () => {
 
     </div>
       <Skill></Skill>
+      <Contact></Contact>
     </div>
   );
 };

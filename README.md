@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Rizon Ahmed (Al Jihad)  
+# 👋 Hi, I'm Rizon Ahmed 
 🚀 Frontend Developer & MERN Specialist | React & Tailwind Enthusiast  
 
 

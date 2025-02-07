@@ -1,10 +1,13 @@
+import { BorderBeam } from '@stianlarsen/border-beam';
 import rizons from  './assets/rizon-ahmed-removebg.png'
 import Contact from './Contact';
+import Footer from './Footer';
 import Skill from './Skill';
+import Works from './Works';
 const About = () => {
   return (
-    <div>
-      <div className="flex items-center justify-center pt-14 pb-14 bg-black text-white px-8">
+    <div id='about'>
+      <div className="flex items-center justify-center pt-14 pb-14 bg-black text-white mt-20 px-8">
       <div className="container mx-auto lg:w-10/12 xl:w-9/12 flex flex-col-reverse md:flex-row items-center space-y-4 md:space-y-0 md:space-x-10">
         
         {/* Text Section */}
@@ -16,22 +19,28 @@ const About = () => {
             Let’s collaborate and turn your ideas into exceptional digital solutions that make an impact!
           </p>
           <button className="mt-8 px-10 py-3  bg-white cursor-pointer hover:bg-purple-500 text-purple-600 hover:text-white font-bold rounded-full transition">
-            Hire Me
+           <a href="#contact"> Hire Me</a>
           </button>
         </div>
 
         {/* Image Section */}
         <div className="relative">
-          <div className="w-48 h-48 md:w-80 md:h-80 rounded-full border-4 border-purple-600 flex items-center justify-center overflow-hidden">
+          <div className="w-48 h-48 md:w-80 md:h-80 rounded-full  flex items-center justify-center overflow-hidden">
             <img src={rizons} alt="Rizon" className="w-full h-full object-cover" />
+            <BorderBeam size={250} borderWidth={2}  duration={10} colorFrom={'#BBDEFB'} colorTo={'#0000CD'} />
+
           </div>
+          
         </div>
 
       </div>
 
     </div>
+  
       <Skill></Skill>
+      <Works></Works>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 };

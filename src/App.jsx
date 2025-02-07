@@ -1,16 +1,32 @@
-import { Outlet } from 'react-router-dom'
-import './App.css'
-import Nav from './Nav'
+import { Outlet } from "react-router-dom";
+import "./App.css";
+import Nav from "./Nav";
+import Snowfall from "react-snowfall";
 
 function App() {
+  return (
+    <div className="relative min-h-screen overflow-clip">
+      {/* Snowfall Effect */}
+      <Snowfall
+        color="white"
+        snowflakeCount={30} 
+        wind={[-1, 1]}
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100vw",
+          height: "100vh",
+          pointerEvents: "none",  
+          zIndex: 9999, 
+        }}
+      />
 
-    return (
-        <>
-        <Nav></Nav>
-        <Outlet></Outlet>
-        
-        </>
-    )
+      {/* Main Content */}
+      <Nav />
+      <Outlet />
+    </div>
+  );
 }
 
-export default App
+export default App;

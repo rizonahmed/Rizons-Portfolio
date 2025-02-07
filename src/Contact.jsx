@@ -56,7 +56,7 @@ const Contact = () => {
                 {/* Left Section - Contact Information */}
                 <aside className="w-full bg-black flex flex-col p-[20px] rounded-md">
                     <div className="mb-4">
-                        <h1 className="text-[2rem] font-[600] leading-[35px] text-white">
+                        <h1 className="text-[2rem]  leading-[35px] text-white">
                             Let’s Create Something Amazing Together!
                         </h1>
                         <p className="text-[0.9rem] mt-1 text-white pt-4">
@@ -68,17 +68,17 @@ const Contact = () => {
                     <div className="flex flex-col gap-[10px] text-gray-300">
                         <p className="flex items-center gap-[8px]">
                             <MdOutlineCall />
-                            <a href="tel:+8801609233511" className="hover:text-white hover:underline font-bold transition-colors">
+                            <a href="tel:+8801609233511" className="hover:text-white hover:underline   transition-colors">
                                 +8801609233511
                             </a>
                         </p>
                         <p className="flex items-center break-all gap-[8px]">
                             <MdOutlineEmail />
-                            <a href="mailto:rizonahmed0486@gmail.com" className="hover:text-white font-bold hover:underline transition-colors">
+                            <a href="mailto:rizonahmed0486@gmail.com" className="hover:text-white   hover:underline transition-colors">
                                 rizonahmed0486@gmail.com
                             </a>
                         </p>
-                        <p className="flex items-center gap-[8px] font-semibold">
+                        <p className="flex items-center gap-[8px]  ">
                             <IoLocationOutline />
                             Natiapara, Tangail, Dhaka
                         </p>
@@ -90,7 +90,7 @@ const Contact = () => {
                     <form onSubmit={handleSubmit} className="pt-[15px] w-full  p-6 bg-[#00000027] rounded-md backdrop-blur-2xl bg-opacity-80 ">
                         <div className="flex flex-col sm:flex-row items-center gap-[10px]">
                             <div className="flex flex-col gap-[5px] w-full sm:w-[50%]">
-                                <label className="text-lg text-gray-300 font-semibold ">First Name</label>
+                                <label className="text-lg text-gray-300   ">First Name</label>
                                 <input
                                     placeholder="Enter Your Name"
                                     type="text"
@@ -101,7 +101,7 @@ const Contact = () => {
                             </div>
 
                             <div className="flex flex-col gap-[5px] w-full sm:w-[50%]">
-                                <label className="text-lg font-semibold text-gray-300">Last Name</label>
+                                <label className="text-lg   text-gray-300">Last Name</label>
                                 <input
                                     placeholder="Enter Your Name"
                                     type="text"
@@ -114,7 +114,7 @@ const Contact = () => {
 
                         <div className="flex flex-col items-center gap-[15px] mt-6">
                             <div className="flex flex-col gap-[5px] w-full">
-                                <label className="text-lg font-semibold text-gray-300">Email Address</label>
+                                <label className="text-lg   text-gray-300">Email Address</label>
                                 <input
                                     placeholder="Enter Your Email"
                                     type="email"
@@ -126,7 +126,7 @@ const Contact = () => {
                         </div>
 
                         <div className="flex flex-col gap-[5px] w-full mt-6">
-                            <label className="text-lg font-semibold text-gray-300">Write Message</label>
+                            <label className="text-lg  text-gray-300">Write Message</label>
                             <textarea
                                 placeholder="Enter Your Message"
                                 name="message"
@@ -138,7 +138,7 @@ const Contact = () => {
                         <div className="w-full flex items-center sm:items-end justify-center sm:justify-end mt-5">
                             <button
                                 type="submit"
-                                className="cursor-pointer dark:border-slate-700 py-2.5 px-6 bg-gray-800 border font-bold text-gray-300 transition-all duration-300 hover:border-gray-800  hover:bg-purple-950 hover:text-white  rounded-md text-[1rem] mt-[10px] w-max"
+                                className="cursor-pointer dark:border-slate-700 py-2.5 px-6 bg-gray-800 border   text-gray-300 transition-all duration-300 hover:border-gray-800  hover:bg-purple-950 hover:text-white  rounded-md text-[1rem] mt-[10px] w-max"
                             >
                                 Send Message
                             </button>

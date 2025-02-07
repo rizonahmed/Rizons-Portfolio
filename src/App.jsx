@@ -5,11 +5,11 @@ import Snowfall from "react-snowfall";
 
 function App() {
   return (
-    <div className="relative min-h-screen overflow-clip">
+    <div className="relative min-h-screen overflow-clip custom-text ">
       {/* Snowfall Effect */}
       <Snowfall
         color="white"
-        snowflakeCount={30} 
+        snowflakeCount={35} 
         wind={[-1, 1]}
         style={{
           position: "fixed",

@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="w-full xl:w-9/12 mx-auto flex   sm:flex-row justify-between items-center px-4">
         
         {/* Left Side - Copyright Text */}
-        <p className="text-sm font-bold mt-4 sm:-mt-1 ">
+        <p className="text-sm   mt-4 sm:-mt-1 ">
           &copy; 2025 <span className="border px-5 ml-2 rounded-full  border-white pt-[3px] pb-[3px]">/ Rizon </span>
         </p>
 

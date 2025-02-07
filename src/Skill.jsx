@@ -1,13 +1,27 @@
 import { BorderBeam } from '@stianlarsen/border-beam';
 import React from 'react';
+import { Typewriter } from 'react-simple-typewriter';
 
 const Skill = () => {
     return (
         <div id='skill'>
             <div className="flex items-center justify-center pt-14 pb-14 bg-black text-white px-8 text-center">
                 <div>
-                    <h1 className="text-4xl font-semibold mb-4">Skills That Define Me</h1>
-                    <p className=" font-semibold text-gray-300 text-base">
+                    <h1 className="text-4xl mb-4">Skills That Define Me</h1>
+                    <p className='text-xl pb-5'> All Skills Here !! <span style={{    color: '#BB86FC' }}>
+                        {/* Style will be inherited from the parent element */}
+                        <Typewriter
+                            words={['Mern Specialist','Front End ', 'Eye Attractive Design', " User Friendly Web App", " Responsive Design", 'Javascript', 'React', 'Node Js', 'Mongodb','Express', 'Firebase', 'Taiwind', 'Css', 'Html', ' Git', 'Github', '!']}
+                            loop={Infinity}
+                            cursor
+                            cursorStyle='_'
+                            typeSpeed={70}
+                            deleteSpeed={50}
+                            delaySpeed={1000}
+                            
+                        />
+                    </span></p>
+                    <p className="  text-gray-300 text-base">
                         A showcase of my expertise and tools of the trade, reflecting my journey in mastering <br /> technology and design. These skills drive my creativity and innovation in every project.
                     </p>
                 </div>
@@ -24,7 +38,7 @@ const Skill = () => {
                             alt="JS Icon"
                             className="h-16 w-16 object-contain transform transition duration-2000 ease-in-out hover:scale-120 hover:shadow-lg hover:shadow-white"
                         />
-                        <BorderBeam size={300} duration={10} colorFrom={'#FFD700'} colorTo={'#FFF9C4'} />
+                        <BorderBeam size={300} duration={10} colorFrom={'#D3D3D3'} colorTo={'#FFD700'} />
                     </div>
 
                     {/* React Icon with smaller image */}

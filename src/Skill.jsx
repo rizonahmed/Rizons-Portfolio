@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const Skill = () => {
     return (
-        <div id='skill'>
+        <div id='skill' className='pb-10 pt-8 bg-black'>
             <div className="flex items-center justify-center pt-14 pb-14 bg-black text-white px-8 text-center">
                 <div>
                     <h1 className="text-4xl mb-4">Skills That Define Me</h1>
@@ -28,7 +28,7 @@ const Skill = () => {
             </div>
 
 
-            <div className="pt-14 pb-14 bg-black text-white px-8 text-center">
+            <div className="pt-8 pb-14 bg-black text-white px-8 text-center">
                 <div className="xl:w-9/12 mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-5 gap-y-16 place-items-center">
 
                     {/* JS Icon with smaller image */}
